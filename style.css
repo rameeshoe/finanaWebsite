@@ -1,0 +1,12 @@
+.logoBig{
+    width: 25%;
+    height: 25%;
+    padding: 2rem;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    top: 0;
+    float: left;
+    padding-left: 40px;
+}

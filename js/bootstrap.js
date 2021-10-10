@@ -2314,4 +2314,13 @@ if (typeof jQuery === 'undefined') {
     })
   })
 
+
+  function scrollFunctionFix() {
+    if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+      document.getElementById().style.position = "fixed";
+    } else {
+      document.getElementById().style.position = "unset";
+    }
+  }
+
 }(jQuery);
